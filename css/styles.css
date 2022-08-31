@@ -11,6 +11,12 @@
       flex-direction: column;
      
     }
+    .accommodationBox{
+        width: 347px !important;
+    }
+    .image{
+        width: 347px !important;
+    }
     .accommodationsBox{
         width: auto !important;
     }
@@ -47,17 +53,21 @@
         flex-direction: column;
     }
     .bottomnav-left{
-        background-color: #F2F2F2;}
+        background-color: #F2F2F2;
+    }
     .bottomnav-center{
         background-color: #F2F2F2;
+        left: 0px !important;
     }
     .bottomnav-right{
         background-color: #F2F2F2;
+        left: 0px !important;
     }
     .filters{
        position: relative !important;
        left: 0px !important;
        top: 20px !important;
+       display:contents !important;
     }
     h2,h3{
         position: relative !important;
@@ -82,7 +92,7 @@
     .topnavLink{
         position: relative;
     left: 528px;
-    top: 40px;
+    top: 68px;
     }
     .topnavLink:hover{
         color: #0065FC;
@@ -98,6 +108,36 @@
         position: relative !important;
         top: 62px !important;
         left: 2px !important;
+      }
+      .dreamText{
+       
+    position: relative !important;
+    top: 82px !important;
+
+
+      }
+      .downtownText{
+        position: relative !important;
+        top: 82px !important;
+      }
+      .sidebar{
+        order:-2;
+   
+}
+      }
+      .mostPopular1{
+        
+    width: 354px !important;
+
+      }
+      .mostPopular2{
+        width: 354px !important;
+      }
+      .mostPopular3{
+        width: 354px !important;
+      }
+      .chart{
+        right: -173px !important;
       }
   }
 
@@ -374,7 +414,10 @@ padding: 20px;
    
    }
 
-
+.dreamText{
+    line-height: 1.2;
+   
+}
 .text{
     padding-left: 1em;
     font-weight: bolder;
@@ -442,19 +485,23 @@ padding: 20px;
 
 .ratingStars1{
     position: relative;
+ 
     bottom: -15px;
-    right: -11px;
-    
+    right: 17px;
+    top: 44px;
     
 }
 .ratingStars2{
     position: relative;
-  
-    right: -11px;
-}.ratingStars3{
+    right: 17px;
+    top: 30px;
+}
+
+
+.ratingStars3{
     position: relative;
-    bottom: -39px;
-    right: -11px;
+    bottom: -23px;
+    right: 17px;
 }
   .ratingStarsAccommodations{
     position: relative;
