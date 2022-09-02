@@ -203,10 +203,9 @@ left: 58px !important;
       }
       .imageActivitiesSmallAndWide{
         height: 120px !important;
-      }
-    
-  
+      }   
     }
+
 *,*::before, *::after {
     box-sizing: border-box;
   }
@@ -462,7 +461,7 @@ padding: 20px;
 
 .block-1{
     display: flex;
-    flex-basis: (100%)/3;
+    
     gap: 25px;
     flex: 1;
    
@@ -474,7 +473,7 @@ padding: 20px;
 
     display: flex;
     
-    flex-basis: (100%)/3;
+   
     gap: 25px;
     flex: 1;
     position: relative;
@@ -790,7 +789,7 @@ padding: 20px;
     flex:1 1 33.333%;
     }
 .bottomnav-center{
-    float: center;
+  
     flex:1 1 33.333%;
     position: relative;
     left: -165px;
