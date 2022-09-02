@@ -25,7 +25,7 @@
     }
     #accommodationsBox{
         width: auto !important;
-        scale: 0.9;
+      transform:  scale(0.9);
         border-top-left-radius: 0px !important;
         border-top-right-radius: 0px !important;
         background-color: white !important;
@@ -813,4 +813,8 @@ padding: 20px;
 a {
     text-decoration: none;
     color: black;
+}
+
+.linkTitle{
+    line-height: 50px;
 }
