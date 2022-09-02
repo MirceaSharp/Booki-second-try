@@ -23,8 +23,12 @@
     .image{
         width: 347px !important;
     }
-    .accommodationsBox{
+    #accommodationsBox{
         width: auto !important;
+        scale: 0.9;
+        border-top-left-radius: 0px !important;
+        border-top-right-radius: 0px !important;
+        background-color: white !important;
     }
     #activitiesBox{
         display: flex;
@@ -77,7 +81,7 @@
     }
     h2,h3{
         position: relative !important;
-       left: 0px !important;
+       left: 34px !important;
    
     }
     .bookiLogo{
@@ -86,11 +90,25 @@
        left: 121px !important;
 
     }
-    .searchbox,.submit{
+    .searchbox{
         position: relative !important;
-       left: 28px !important;
-       top: 28px !important;
-    
+        left: 69px !important;
+        top: 28px !important;
+    }
+    .submit{
+        visibility: hidden;
+        
+    }
+    .searchMobile{
+        visibility: visible !important;
+        position: relative;
+        top: 27px;
+        left: -18px;
+        height: 47px;
+        width: 45px;
+        border-radius: 11px;
+        color: white;
+        background-color: #0065FC;
     }
     header{
         width: 100%;
@@ -108,12 +126,12 @@
       .locationPinBackground{
         position: relative !important;
         top: 96px !important;
-        left: -17px !important;
+        left: 23px !important;
       }
       .locationDot{
         position: relative !important;
         top: 62px !important;
-        left: 2px !important;
+        left: 40px !important;
       }
       .dreamText{
        
@@ -125,12 +143,16 @@
       .downtownText{
         position: relative !important;
         top: 82px !important;
+        font-weight: 500;
       }
       .sidebar{
         order:-2;
         width: 400px !important;
-        margin-bottom: 40px;
-        scale: 0.80;
+        margin-bottom: -40px;
+        
+        border-bottom-left-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+       
    
 
       }
@@ -145,9 +167,19 @@
       }
       .mostPopular3{
         width: 354px !important;
+        margin-bottom: 55px;
       }
       .chart{
         right: -173px !important;
+      }
+      .callanquesBox{
+left: 9px !important;
+      }
+      .notreDameBox{
+        left: 9px !important;
+      }
+      .notreDameBox2{
+        left: 9px !important;
       }
     
   
@@ -235,7 +267,7 @@
     top: 48px;
 
 }
-.infoSign{
+#infoSign{
     color: #0065FC;
     position: relative;
 }
@@ -257,25 +289,28 @@
     font-weight: 600;
     left: 460px;
     position: relative;
-    height: 49px;
+    height: 45px;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     margin-left: -17px;
     width: 90px;
  }
+ .searchMobile{
+        visibility: hidden;
+}
 .locationPinBackground{
     background-color: #F2F2F2;
-    height: 49px;
+    height: 45px;
     width: 45px;
     position: relative;
     left: 34px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    top: 68px;
+    top: 67px;
 }
 .locationDot{
-    height: 15px;
-    width: 15px;
+    height: 19px;
+    width: 19px;
     position: relative;
     top: 34px;
     left: 51px;
@@ -296,13 +331,16 @@
     position: relative;
     font-weight: bolder;
     border-width:1px;
+    font-size: large;
 }
+
 .searchbox{
     height:45px;
     color: black;
 }
 .searchbox::placeholder{
     color: black;
+    text-align: center;
 }
 .topnav-right{
     float: right;
