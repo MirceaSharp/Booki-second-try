@@ -87,7 +87,7 @@
     .bookiLogo{
         position: relative !important;
        
-       left: 121px !important;
+       left: 175px !important;
 
     }
     .searchbox{
@@ -182,6 +182,7 @@ left: 58px !important;
         left: 58px !important;
       }
       .pomeguesSmall{
+        height: 180px;
         left: 58px !important;
       }
       .pomeguesSmall2{
