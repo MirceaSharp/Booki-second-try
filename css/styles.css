@@ -37,16 +37,16 @@
     #links    {
     display: flex !important;
     flex-direction: column !important;
-    width: auto !important;
+  
     background-color: rgb(231 231 231);
     height: 200px;
-    width: 100%;
+   width: 443px !important;
     padding-top: 3em;
     display: flex;
     position: relative;
-    width: 1445px;
+    
     left: -68px;
-    bottom: -1362px;
+    bottom: -848px !important;
     left: -27px !important;
    
    
@@ -173,13 +173,35 @@
         right: -173px !important;
       }
       .callanquesBox{
-left: 9px !important;
+left: 58px !important;
       }
       .notreDameBox{
-        left: 9px !important;
+        left: 58px !important;
       }
       .notreDameBox2{
-        left: 9px !important;
+        left: 58px !important;
+      }
+      .pomeguesSmall{
+        left: 58px !important;
+      }
+      .pomeguesSmall2{
+        left: 58px !important;
+      }
+      .oldPortBox{
+        left: 58px !important;
+        height: 180px;
+        overflow: hidden !important;
+      }
+      .imageActivities{
+    content: url(resizedmobile.png) !important;
+    height: 118px !important;
+      }
+ 
+      .imageActivitiesBigAndWide{
+        height: 120px !important;
+      }
+      .imageActivitiesSmallAndWide{
+        height: 120px !important;
       }
     
   
@@ -222,30 +244,37 @@ left: 9px !important;
 
 }
  .filterBackground{
-    border-radius: 21px;
-    width: 48px;
-    height: 52px;
+   
+    border-radius: 22px;
+    width: 50px;
+    height: 50px;
     background-color: #d0e3ff;
     position: relative;
-    top: 53px;
+    top: 50px;
+}
+
     
- }
+ 
  #money{
  
     position: relative;
     left:-173px;
+    color:#0065FC;
  }
  #child{
     position: relative;
     left: -191px;
+    color:#0065FC;
  }
  #love{
     position: relative;
     left:-173px;
+    color:#0065FC;
  }
  #dog{
     position: relative;
     left: -191px;
+    color:#0065FC;
  }
 .chart{
     position: relative;
@@ -460,6 +489,7 @@ padding: 20px;
     width: 228px;
     height: 132px;
 
+
    
    }
 
@@ -641,6 +671,9 @@ padding: 20px;
     width: 298px;
 }
 
+.imageActivitiesMobile{
+ visibility: hidden;
+}
 
 .oldPortBox{
     border-width:1px;
